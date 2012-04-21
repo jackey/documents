@@ -20,11 +20,17 @@ mysql> SELECT BENCHMARK(10000, MD5(@INPUT));
 
 * Questions when analyz MYSQL.
 
-  1. Which data MYSQL access most ?
-  2. What kand of quries MYSQL execut ?
-  3. What status MYSQL threads spend most time in ? 
-  4. What subsystem MYSQL uses most to execute query ?
-  5. What kinds of data when MSYQL query ?
-  6. How much kinds of activities, such as index scan, MYSQL does.
+    1. Which data MYSQL access most ?
+    2. What kand of quries MYSQL execut ?
+    3. What status MYSQL threads spend most time in ? 
+    4. What subsystem MYSQL uses most to execute query ?
+    5. What kinds of data when MSYQL query ?
+    6. How much kinds of activities, such as index scan, MYSQL does.
 
 * MYSQL Query Log
+
+* Buildin MYSQL Tool
+
+    * show status / show session status LIKE "string%" / show profiles
+
+    
