@@ -33,4 +33,14 @@ mysql> SELECT BENCHMARK(10000, MD5(@INPUT));
 
     * show status / show session status LIKE "string%" / show profiles
 
+#Build test performance environment
+
+* Build Schema
+
+* Generate content
+
+* Query them
+
+* Analyze
+
     
