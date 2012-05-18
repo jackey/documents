@@ -42,5 +42,36 @@ mysql> SELECT BENCHMARK(10000, MD5(@INPUT));
 * Query them
 
 * Analyze
+* 
+* IRC Chat History
+
+threnody 09时40分10秒
+!t deeprogram about joins  
+
+ubiquity_bot 09时40分10秒
+deeprogram: Very basic join information: http://hashmysql.org/index.php?title=Introduction_to_Joins - For more indepth info: http://dev.mysql.com/tech-resources/articles/mysql-db-design-ch5.pdf	
+
+threnody 09时40分20秒
+!m deeprogram join	
+
+ubiquity_bot 09时40分21秒
+deeprogram: See http://dev.mysql.com/doc/refman/5.5/en/join.html	
+
+threnody 09时40分25秒
+!t deeprogram about venn	
+
+ubiquity_bot 09时40分26秒
+deeprogram: Joins are like Venn diagrams! http://www.codeproject.com/KB/database/Visual_SQL_Joins.aspx	
+threnody - TheAvatar - thorie - thumbs - 09:40	
+
+deeprogram 09时40分38秒
+threnody: WOW!!
+threnody: thanks, man! 09时40分49秒
+ 
+threnody 09时40分51秒
+!t deeprogram about common queries	
+
+ubiquity_bot 09时40分52秒
+deeprogram: common mysql queries can be found at http://www.artfulsoftware.com/infotree/queries.php?&bw=1345
 
     
