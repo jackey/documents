@@ -76,6 +76,8 @@ deeprogram: common mysql queries can be found at http://www.artfulsoftware.com/i
 
 
 # Example Of my.cnf
+
+```
 #BEGIN CONFIG INFO
 #DESCR: 4GB RAM, 只使用InnoDB, ACID, 少量的连接, 队列负载大
 #TYPE: SYSTEM
@@ -519,5 +521,5 @@ interactive-timeout
 # 警告: 确认你已经将全系统限制设定的足够高!
 # 打开大量表需要将此值设b
 open-files-limit = 8192
-
+```
     
