@@ -522,4 +522,10 @@ interactive-timeout
 # 打开大量表需要将此值设b
 open-files-limit = 8192
 ```
+
+##缓存命中率
+100 - ((key_reads * 100) - Key_read_requests)
+
+##缓存使用百分比
+100 - ((Key_blocks_unused * key_cache_block_size ) * 100 / key_buffer_size) 
     
