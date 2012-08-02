@@ -37,5 +37,6 @@
 ## /proc/ file system.
     这个目录下包含了系统，硬件信息.
 
-## cat /etc/redhat-release
-查看系统发布的信息 (linux transition)
+## 查看系统发布的信息 (linux transition)
+centos: cat /etc/redhat-release
+ubuntu: lsb_release -a
