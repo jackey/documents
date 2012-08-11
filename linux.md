@@ -52,3 +52,6 @@ cd otp_src_R14B03
 ./configure
 make
 make install
+
+## Clean cached on ubuntu
+sudo sync && sudo echo 3 | sudo tee /proc/sys/vm/drop_caches
