@@ -528,4 +528,12 @@ open-files-limit = 8192
 
 ##缓存使用百分比
 100 - ((Key_blocks_unused * key_cache_block_size ) * 100 / key_buffer_size) 
+
+## Mysql data 导出成CVS
+
+SELECT * from myTable
+INTO OUTFILE 'querydump.csv'
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
     
