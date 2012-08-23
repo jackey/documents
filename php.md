@@ -13,7 +13,7 @@ preg_match_all("/@[A-Za-z0-9\x{4e00}-\x{9fa5}]+[\s]*/u", $arrtext[0], $matches);
 
 ```
 ./configure \
---prefix=/usr/local/php53 \
+--prefix=/usr/local \
 --with-config-file-path=/usr/local/etc \
 --with-config-file-scan-dir=/usr/local/etc/php.d \
 --mandir=/usr/local/man \
