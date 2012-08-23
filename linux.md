@@ -155,3 +155,28 @@ do
 	esac
 done
 ```
+
+## Linux 系统挂载实例
+
+  准备: 
+    1. 创建loop 设备.
+      ```
+        dd if=/dev/zero of=./file_img block=1k count=10000
+        losetup /dev/loop0 ./file_img
+      ```
+      
+    2. 格式化ext2文件系统
+      ```mke2fs -c /dev/loop0 10000```
+      
+  挂载:
+    ``` 
+        mkdir /mnt/file_img
+    	mount -t ext2 /dev/loop0 /mnt/file_img
+    ```
+  已经可以开始访问了:
+    ```
+      cd /mnt/file_img 
+      ls -al
+    ```
+      
+    
