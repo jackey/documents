@@ -37,3 +37,6 @@ preg_match_all("/@[A-Za-z0-9\x{4e00}-\x{9fa5}]+[\s]*/u", $arrtext[0], $matches);
 --enable-bcmath \
 --with-bz2 \
 ```
+
+## 手机归属地查询服务
+http://webservice.webxml.com.cn/WebServices/MobileCodeWS.asmx/getMobileCodeInfo
