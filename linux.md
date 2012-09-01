@@ -178,5 +178,17 @@ done
       cd /mnt/file_img 
       ls -al
     ```
-      
+## Linux 创建Patch
+### 插件Patch 
+```
+diff -crB Tb01 Tb02 > Tb02.patch
+```
+### 测试Patch
+```
+patch --dry-run -p1 -i Tb02.patch
+```
+### 使用Patch
+```
+patch -p1 -i Tb02.patch
+```
     
