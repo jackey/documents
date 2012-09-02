@@ -64,3 +64,6 @@
 --with-pcre --with-pcre=/root/pcre-8.10 \
 --with-zlib=/root/zlib-1.2.5\
 --with-http_geoip_module
+
+##Http 头详解
+http://www.thosedays.us/http_head/161.html
