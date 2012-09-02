@@ -191,4 +191,11 @@ patch --dry-run -p1 -i Tb02.patch
 ```
 patch -p1 -i Tb02.patch
 ```
-    
+### 修改临时bind 记录
+```
+vi /etc/mtab
+```
+### 修改持久bind记录
+```
+vi /etc/fstab
+```
