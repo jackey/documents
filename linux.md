@@ -204,3 +204,6 @@ vi /etc/fstab
 ```
 smb://192.168.159.14/
 ```
+
+### Install pptp on centos 5.x
+[Install guid ](http://docs.cslabs.clarkson.edu/wiki/Install_PPTP_on_CentOS_5)
