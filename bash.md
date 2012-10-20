@@ -6,10 +6,12 @@
 ## Markdown to pdf
 
   * Convert markdown to html
+
 ```
   perl markdown.pl --html4tags file.md >file.html
 ```
   * Convert html to pdf
+
 ```
   htmldoc --cont --headfootsize 8.0 --linkcolor blue --linkstyle plain --format pdf14 file.html > file.pdf
 ```
