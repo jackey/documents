@@ -15,3 +15,9 @@
 ```
   htmldoc --cont --headfootsize 8.0 --linkcolor blue --linkstyle plain --format pdf14 file.html > file.pdf
 ```
+
+## 返回当前script 本身所在目录
+
+```
+BASE=$(dirname $(readlink -f ${BASH_SOURCE[0]}))
+```
