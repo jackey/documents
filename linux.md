@@ -207,3 +207,6 @@ smb://192.168.159.14/
 
 ### Install pptp on centos 5.x
 [Install guid ](http://docs.cslabs.clarkson.edu/wiki/Install_PPTP_on_CentOS_5)
+
+### Centos 安装包网站索引
+[安装包索引](http://pkgs.org/)
