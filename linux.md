@@ -210,3 +210,33 @@ smb://192.168.159.14/
 
 ### Centos 安装包网站索引
 [安装包索引](http://pkgs.org/)
+
+### epel repo Settings
+```
+[epel]
+name=Extra Packages for Enterprise Linux 5 - $basearch
+#baseurl=http://download.fedoraproject.org/pub/epel/5/$basearch
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-5&arch=$basearch
+failovermethod=priority
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
+
+[epel-debuginfo]
+name=Extra Packages for Enterprise Linux 5 - $basearch - Debug
+#baseurl=http://download.fedoraproject.org/pub/epel/5/$basearch/debug
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-debug-5&arch=$basearch
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
+gpgcheck=1
+
+[epel-source]
+name=Extra Packages for Enterprise Linux 5 - $basearch - Source
+#baseurl=http://download.fedoraproject.org/pub/epel/5/SRPMS
+mirrorlist=http://mirrors.fedoraproject.org/mirrorlist?repo=epel-source-5&arch=$basearch
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
+gpgcheck=1
+```
