@@ -42,7 +42,7 @@ preg_match_all("/@[A-Za-z0-9\x{4e00}-\x{9fa5}]+[\s]*/u", $arrtext[0], $matches);
 http://webservice.webxml.com.cn/WebServices/MobileCodeWS.asmx/getMobileCodeInfo
 
 ## APC 配置
-[APC]
+```[APC]
 apc.enabled = 1
 apc.ttl=604800
 apc.user_ttl=3600
@@ -56,3 +56,4 @@ apc.stat_ctime = 0
 apc.file_update_protection = 2
 apc.stat = 0
 apc.canonicalize = 0
+```
