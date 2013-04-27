@@ -4,3 +4,5 @@ https://github.com/sproutcore/sproutcore
 
 ### 好用的动画库
 http://www.jstween.org/#gettingStarted
+
+http://visionmedia.github.io/move.js/
