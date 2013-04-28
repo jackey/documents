@@ -240,3 +240,7 @@ enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL
 gpgcheck=1
 ```
+
+### Setup GitServer
+
+[Click Here](http://www.fclose.com/b/linux/366/set-up-git-server-through-ssh-connection/)
