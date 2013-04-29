@@ -294,6 +294,7 @@ log_long_format
 server-id = 1
 
 # 复制的Slave (去掉master段的注释来使其生效)
+
 #
 # 为了配置此主机作为复制的slave服务器,你可以选择两种方法:
 #
@@ -536,4 +537,9 @@ INTO OUTFILE 'querydump.csv'
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
+
+## Ubuntu install 
+```
+# apt-get install mysql-server
+```
     
