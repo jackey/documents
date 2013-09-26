@@ -244,3 +244,11 @@ gpgcheck=1
 ### Setup GitServer
 
 [Click Here](http://www.fclose.com/b/linux/366/set-up-git-server-through-ssh-connection/)
+
+
+### Office VBox Linux account
+
+* centosg1
+
+	root / adminadmin
+
