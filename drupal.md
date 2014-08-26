@@ -30,4 +30,10 @@ andromeda(href=http://drupal.org/project/andromeda)
 5. 最好2个服务器（数据库和web服务器, 因为数据库需要动态创建，如果在一个服务器上会对web 服务器造成影响），需要可插拔式的服务器配置方案，来支持增长的用户
 ```
 
-## 获取Field 配置的选项
+## 获取Field 配置的选项代码示
+```
+    $goal_field_instance = field_info_instance("taxonomy_term", "field_goal" ,"course_job_opportunity");
+    $goal_field = field_info_field("field_goal");
+    $goal = list_allowed_values($goal_field, $goal_field_instance, "taxonomy_term");
+    // $goal 变量就是选项
+```
