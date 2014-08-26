@@ -4,7 +4,7 @@ http://www.vmirgorod.name/blog/tuning-drupal-performance#performance_table
 
 ## Drupal优秀的主题
 
-andromeda(href="http://drupal.org/project/andromeda")
+andromeda(href=http://drupal.org/project/andromeda)
 
 ## Drupal  多站点构造
 ```
@@ -29,3 +29,5 @@ andromeda(href="http://drupal.org/project/andromeda")
 
 5. 最好2个服务器（数据库和web服务器, 因为数据库需要动态创建，如果在一个服务器上会对web 服务器造成影响），需要可插拔式的服务器配置方案，来支持增长的用户
 ```
+
+## 获取Field 配置的选项
