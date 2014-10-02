@@ -21,3 +21,8 @@
 ```
 BASE=$(dirname $(readlink -f ${BASH_SOURCE[0]}))
 ```
+
+## CURL 模拟表单加文件上传
+```
+curl --form file=@/Users/jackeychen/Workspace/shangxia/html/views/admin/bin/hello.info --form name=jackey --form phone=15821121753 --form email=jziw@dmil.com  http://sxhtml.local/admin/api/content/contact
+```
