@@ -37,3 +37,7 @@ andromeda(href=http://drupal.org/project/andromeda)
     $goal = list_allowed_values($goal_field, $goal_field_instance, "taxonomy_term");
     // $goal 变量就是选项
 ```
+Drupal 6
+```
+$options = content_allowed_values(content_fields("field_category", "news"));
+```
